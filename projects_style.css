@@ -93,3 +93,21 @@ nav ul li a:hover::after {
     border-radius: 100%;
     margin-top: 100%;
 }
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    float: left;
+    justify-content: center;
+    margin-left: 25%;
+    width: 75%;
+}
+
+img {
+    max-width: 75em;
+    justify-content: center;
+}
